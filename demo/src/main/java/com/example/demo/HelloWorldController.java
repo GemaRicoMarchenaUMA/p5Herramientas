@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/saludo")
     public String decirHola() {
-        return "¡Hello World! CONTROLADOR DE GEMA";
+        return "¡Hello World! CONTROLADOR DE GEMA GRUPO G";
     }
 }
