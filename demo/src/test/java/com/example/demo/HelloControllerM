@@ -1,0 +1,13 @@
+package com.example.demo; // O cambia a 'com.example.demo.controladores;'
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloControllerM {
+
+    @GetMapping("/saludo")
+    public String decirHola() {
+        return "¡Hello World! Mi primer controlador funciona correctamente.";
+    }
+}
